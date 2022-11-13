@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+.announcement{
+    background-color: aqua;
+}
+
+.announcement p {
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1160px;
+}
+.logo img{
+    width: 180px;
+    margin-top: 3px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    padding: 14px 66px 20px 44px;
+}
